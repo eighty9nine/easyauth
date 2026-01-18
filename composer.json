@@ -1,0 +1,30 @@
+{
+    "name": "eightynine/easyauth",
+    "description": "Easy Auth SSO client plugin for Laravel and Filament apps.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "illuminate/auth": "^12.0",
+        "illuminate/cache": "^12.0",
+        "illuminate/console": "^12.0",
+        "illuminate/http": "^12.0",
+        "livewire/livewire": "^3.5",
+        "laravel/passport": "^13.0",
+        "illuminate/support": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EightyNine\\EasyAuth\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EightyNine\\EasyAuth\\EasyAuthServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
