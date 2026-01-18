@@ -2,7 +2,7 @@
 
 This guide is for a developer who has never wired SSO before. Follow the steps exactly.
 
-## Overview
+## Overview 
 ## Step 1: Create a client on the EasyAuth server
 
 1. Log in to the EasyAuth admin panel.
